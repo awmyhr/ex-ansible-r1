@@ -1,0 +1,6 @@
+---
+# tasks file for role_first
+- name: Identify self
+  ansible.builtin.debug:
+    msg: This is a message from the first role on {{ inventory_hostname }}.
+    verbosity: 0
